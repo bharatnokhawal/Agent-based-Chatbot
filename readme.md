@@ -16,13 +16,16 @@ The app supports **question answering, summarization, and conversation history**
 ---
 
 ## 📂 Project Structure
+
 ├── app.py # Main Streamlit application
+
+├── main.py # Main Streamlit application with use agent tool
+
 ├── requirements.txt # Project dependencies
+
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -30,38 +33,37 @@ Edit
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/your-username/pdf-agent.git
-   cd pdf-agent
-Create virtual environment (recommended)
+   git clone https://github.com/bharatnokhawal.git
 
-bash
-Copy
-Edit
+   
+##Create virtual environment (recommended)
+
+
 python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
-Install dependencies
 
-bash
-Copy
-Edit
+
+##Install dependencies
+
+
 pip install -r requirements.txt
 Set up environment variables
 
 Create a .env file in the project root
 
-Add your Google API Key:
+##Add your Google API Key:
 
-env
-Copy
-Edit
+
 GOOGLE_API_KEY=your_api_key_here
+
+
 ▶️ Run the App
-bash
-Copy
-Edit
+
+
 streamlit run app.py
 Then open the local URL (usually http://localhost:8501) in your browser.
+
 
 🛠️ Tech Stack
 Streamlit – Web UI
@@ -90,10 +92,9 @@ Get an AI-generated response with source references
 
 "Who is mentioned as the key contributor?"
 
+
 🖼️ Architecture
-scss
-Copy
-Edit
+
  PDF(s) → Text Extraction (PyPDF2) 
         → Text Splitting (LangChain) 
         → Embeddings (Google Generative AI) 
