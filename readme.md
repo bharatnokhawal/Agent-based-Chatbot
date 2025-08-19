@@ -33,7 +33,7 @@ The app supports **question answering, summarization, and conversation history**
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/bharatnokhawal.git
+ (https://github.com/bharatnokhawal/Agent-based-Chatbot.git)
 
    
 ##Create virtual environment (recommended)
