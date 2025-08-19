@@ -26,14 +26,12 @@ The app supports **question answering, summarization, and conversation history**
 └── README.md # Project documentation
 
 
-
----
-
 ## ⚙️ Installation
 
 1. **Clone this repo**
    ```bash
- (https://github.com/bharatnokhawal/Agent-based-Chatbot.git)
+   git clone https://github.com/bharatnokhawal/Agent-based-Chatbot.git
+   
 
    
 ##Create virtual environment (recommended)
